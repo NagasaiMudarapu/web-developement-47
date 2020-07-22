@@ -3,10 +3,10 @@
 var exprss = require('express');
 
 // 2. Create Application
-var app = exprss();
+var ap = exprss();
 
 // 3.  Define Functiosn to run when someone accesses our site
-app.get('/', function(req, res){
+ap.get('/', function(req, res){
     res.send('Hello World, Is this still working??');
 })
 
@@ -14,6 +14,6 @@ app.get('/', function(req, res){
 var port= process.env.PORT  || 3000;
 
 // Once site is up, function() will be called automatically
-app.listen(port, function(){
+ap.listen(port, function(){
     console.log("Site Running on http://localhost:"+port);
 });
