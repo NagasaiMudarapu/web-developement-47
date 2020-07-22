@@ -1,9 +1,9 @@
 // 1.  import or #include liek statement for express
 
-var express = require('express');
+var exprss = require('express');
 
 // 2. Create Application
-var app = express();
+var app = exprss();
 
 // 3.  Define Functiosn to run when someone accesses our site
 app.get('/', function(req, res){
